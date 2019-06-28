@@ -1,6 +1,6 @@
-# 快速发布应用
+# 快速构建和部署应用
 
-本教程将指导你如何通过EnOS SHC快速将应用发布至指定集群中，并且测试使用应用。
+本教程将指导你如何通过EnOS SHC快速构建和部署应用、将应用发布至指定集群中，并且测试使用应用。
 
 ## 场景描述<scenario>
 
@@ -163,6 +163,8 @@
    - 待扫描代码：src/main/java
 
      .. image:: media/task_code_scan.png
+
+   .. note:: 对于构建和代码扫描规则的详细介绍，参考[新建流水线](../howto/pipeline/creating_pipeline)。
 
 4. 点击**添加Stage**，数入阶段名称*部署*。
 

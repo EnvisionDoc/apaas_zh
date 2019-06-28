@@ -54,7 +54,11 @@
      - 任务名称：输入构建任务的名称
      - Docker文件路径：输入Dockerfile存放路径，如docker/Dockerfile，默认为项目根路径
      - 镜像仓库：选择镜像仓库
+
+   .. note:: 构建任务会判断是否存在*build.sh*，若存在，则自动执行*build.sh*；若不存在，则判断是否存在*pom.xml*，若存在，则执行*mvn clean package -U -DskipTests*命令。使用自定义*build.sh*进行构建时需要将构建结果如war/tar/jar/zip包等的存放位置设置为项目根目录下的*target*目录。
+
    - **部署**
+
      - 任务名称：输入部署任务的名称
      - 集群：选择部署应用的集群
      - 部署类型：选择部署类型，可选Deployment或StatefulSet
@@ -65,7 +69,11 @@
      - 待扫描代码：输入需要扫描的文件路径，如*src/main/java*，*src/main/java/utils/Test.java*
      - 排除文件：输入无需扫描的文件路径，如src/main/java/*，src/main/java/**/，src/main/java/utils/Test.java
      - 单元测试：选择是否进行单元测试，如需进行单元测试，则输入测试文件的路径，如*src/test*
+
+   .. note:: 代码扫描任务会判断是否存在*build.sh*，若存在，则自动执行*build.sh*；若不存在，则判断是否存在*pom.xml*，若存在，则执行*mvn clean compile -DskipTests*命令。编程语言为Java时，会判断是否存在*sonar-project.properties*文件，若存在，则使用*sonar-scanner*完成代码扫描；若不存在，则使用*mvn sonar:sonar*进行代码扫描。其他编程语言如Node.js，则默认使用*sonar-scanner*进行代码扫描。
+
    - **发布依赖包**
+
      - 任务名称：输入任务的名称
      - 构建路径：输入pom文件所在的路径，如*share*，默认为项目根路径
      - 参数：Java默认命令为*mvn deploy*，可添加参数，如*-DskipTests*；npm默认命令为*npm*
