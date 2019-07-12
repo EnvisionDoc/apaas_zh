@@ -13,5 +13,4 @@ EnOS SHC的主要功能如下：
 
    devops
    container_management
-   cluster_management
    governance
