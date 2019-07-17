@@ -59,7 +59,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'EnOS Apaas'
+project = u'EnOS 服务托管中心'
 copyright = u'2018, EnOS'
 author = u'Envision Digital'
 
@@ -303,7 +303,7 @@ latex_show_urls = 'footnote'
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, u'enosdocumentationcenter', u'EnOS Apaas',
+    (master_doc, u'enosdocumentationcenter', u'EnOS 服务托管中心',
      [author], 1)
 ]
 
@@ -314,7 +314,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'EnOSDocumentationCenter', 'EnOS Apaas',
+    (master_doc, 'EnOSDocumentationCenter', 'EnOS 服务托管中心',
      author, 'EnOSDocumentationCenter', 'One line description of project.',
      'Miscellaneous'),
 ]
@@ -327,7 +327,7 @@ texinfo_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, u'enosdocumentationcenter', u'EnOS Apaas',
+    (master_doc, u'enosdocumentationcenter', u'EnOS 服务托管中心',
      [author], 1)
 ]
 
@@ -338,8 +338,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'EnOSDocumentationCenter', 'EnOS Apaas',
-     author, 'EnOSDocumentationCenter', 'Product documentation about EnOS Apaas.',
+    (master_doc, 'EnOSDocumentationCenter', 'EnOS 服务托管中心',
+     author, 'EnOSDocumentationCenter', 'Product documentation about EnOS 服务托管中心.',
      'Miscellaneous'),
 ]
 
