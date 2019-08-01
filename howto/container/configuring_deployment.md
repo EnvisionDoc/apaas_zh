@@ -49,7 +49,7 @@
 
 ## 管理Deployment
 
-应用Deployment信息创建完成后，可对Deployment进行克隆、编辑、删除、和发布等操作。
+应用Deployment信息创建完成后，可对Deployment进行克隆、编辑、删除、发布、和回滚等操作。
 
 .. image:: ../../media/edit_deployment.png
 
@@ -68,5 +68,9 @@
    - 查看Deployment发布结果和发布历史。
 
      .. image:: ../../media/publish_result.png
+
+- **历史查询**：选中Deployment名称，点击 **历史查询** 按钮查看对该Deployment的历史操作。点击 **详情** 查看历史操作中Deployment的详细配置；点击 **回滚** 使当前Deployment的配置返回到选中的历史状态。
+
+   .. image:: ../../media/rollback_deployment.png
 
 <!--end-->
