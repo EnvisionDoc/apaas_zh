@@ -144,9 +144,9 @@
 
    - 任务名称：构建
 
-   - dockerfile路径：Dockerfile
+   - Docker文件路径：Dockerfile
 
-   - 镜像仓库：harbor.eniot.io
+   - Docker镜像仓库：harbor.eniot.io
 
      .. image:: media/task_build.png
 

@@ -53,7 +53,7 @@
    - **构建**
      - 任务名称：输入构建任务的名称
      - Docker文件路径：输入Dockerfile存放路径，如docker/Dockerfile，默认为项目根路径
-     - 镜像仓库：选择镜像仓库
+     - Docker镜像仓库：选择镜像仓库
 
    .. note:: 构建任务会判断是否存在*build.sh*，若存在，则自动执行*build.sh*；若不存在，则判断是否存在*pom.xml*，若存在，则执行*mvn clean package -U -DskipTests*命令。使用自定义*build.sh*进行构建时需要将构建结果如war/tar/jar/zip包等的存放位置设置为项目根目录下的*target*目录。
 
