@@ -31,13 +31,17 @@
 
 ### 编辑成员
 
-1. 在搜索框中搜索项目成员的用户名。在用户列表中勾选需要变更的项目成员的角色
+1. 在搜索框中搜索项目成员的用户名。
 
    .. image:: ../../media/search_user.png
 
-2. 点击 **编辑**，调整项目成员的角色；或点击**删除用户**移除项目成员。成员被移除后，将无权限进入项目空间。
+2. 点击 |edit|，调整项目成员的角色；或点击 |delete| 移除项目成员。成员被移除后，将无权限进入项目空间。
 
    .. image:: ../../media/edit_user.png
+
+   .. |edit| image:: ../../media/icon_edit.png
+
+   .. |delete| image:: ../../media/icon_delete.png
 
 
 

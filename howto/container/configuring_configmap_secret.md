@@ -44,7 +44,9 @@ Secret解决了密码、token、密钥等敏感数据的配置问题，而不需
 
 4. 选择Secret加密类型：
 
-   - **Opaque**：Base64编码格式的Secret，用来存储密码、密钥等。注意：Opaque类型的Value需要填写Base64加密后的内容。可以使用在线加密解密工具：<http://tool.oschina.net/encrypt?type=3>
+   - **Opaque**：Base64编码格式的Secret，用来存储密码、密钥等。
+   
+     .. note:: Opaque类型的Value需要填写Base64加密后的内容。可以使用在线加密解密工具：<http://tool.oschina.net/encrypt?type=3>
 
    - **kubernetes.io/rbd**：
 

@@ -50,4 +50,6 @@
 
    .. image:: ../../media/app_deploy.png
 
+   .. image:: ../../media/app_deploy.png
+
 <!--end-->

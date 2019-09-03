@@ -49,17 +49,13 @@
 
 ## 管理Deployment
 
-应用Deployment信息创建完成后，可对Deployment进行克隆、编辑、删除、发布、和回滚等操作。
+应用Deployment信息创建完成后，点击Deployment后的“...”可对Deployment进行克隆、发布、回滚、扩容、编辑和删除等操作。
 
 .. image:: ../../media/edit_deployment.png
 
-- **克隆**：在已创建的Deployment列表中，选中Deployment名称，点击 **克隆** 按钮，即可复用Deployment配置信息，快速创建新的Deployment。
+- **克隆**：点击一个Deployment名称后的 **克隆**，即可复用Deployment配置信息，快速创建新的Deployment。
 
-- **编辑**：选中Deployment名称，点击 **编辑** 按钮，即可更新Deployment配置信息。
-
-- **删除**：选中Deployment名称，点击 **删除** 按钮并确认，即可删除Deployment配置信息。
-
-- **发布**：选中Deployment名称，点击 **发布** 按钮并配置发布信息。
+- **发布**：点击一个Deployment名称后的 **发布** 并配置发布信息。
 
    - 在 **发布操作** 一栏中，选择Docker镜像后，点击 **开始** 按钮。
 
@@ -69,8 +65,21 @@
 
      .. image:: ../../media/publish_result.png
 
-- **历史查询**：选中Deployment名称，点击 **历史查询** 按钮查看对该Deployment的历史操作。点击 **详情** 查看历史操作中Deployment的详细配置；点击 **回滚** 使当前Deployment的配置返回到选中的历史状态。
+- **历史查询**：点击一个Deployment名称后的 **历史查询** 查看对该Deployment的历史操作。点击 **详情** 查看历史操作中Deployment的详细配置；点击 **回滚** 使当前Deployment的配置返回到选中的历史状态。
 
    .. image:: ../../media/rollback_deployment.png
+
+- **查看详情**: 点击一个Deployment名称后的 **查看详情** 查看Deployment的配置详情。
+
+- **自动扩容**：点击一个Deployment名称后的 **自动扩容** 可对Deployment的副本数量、CPU平均使用率、内存平均值进行调整。
+
+- **编辑**：点击一个Deployment名称后的 |edit|，即可更新Deployment配置信息。
+
+  .. |edit| image:: ../../media/icon_edit.png
+
+- **删除**：点击一个Deployment名称后的 |delete| 并确认，即可删除Deployment配置信息。
+
+  .. |delete| image:: ../../media/icon_delete.png
+
 
 <!--end-->
